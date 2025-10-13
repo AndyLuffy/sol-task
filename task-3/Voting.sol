@@ -11,9 +11,26 @@ pragma solidity ^0.8.0;
 contract Voting{
 
     mapping(string =>uint256) public votes;
+    string[] keys;
+    function vote(string memory name) public {
+        if(votes[name] == 0){
+            keys.push(name);
+        }
+        uint256 count = votes[name];
+        uint256 i = 1;
+        votes[name] = count +i;
+    } 
+
+    function getVotes(string memory name ) public view returns (uint256){
+        return votes[name];
+    }   
+
+    function resetVotes() public {
+        for(uint i=0;i<keys.length;i++){
+            string memory key = keys[i];
+            votes[key] = 0;
+        }
+    }
+
     
-    
-
-
-
 }
