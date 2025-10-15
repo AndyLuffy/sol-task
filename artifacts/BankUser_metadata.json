@@ -6,55 +6,37 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "fallback"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "bankAddress",
-						"type": "address"
-					}
-				],
-				"name": "depositToBank",
+				"inputs": [],
+				"name": "withdrawCall",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "bankAddress",
-						"type": "address"
-					}
-				],
-				"name": "getBankBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"inputs": [],
+				"name": "withdrawSender",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "bankAddress",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "withdrawFromBank",
+				"inputs": [],
+				"name": "withdrawTransfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -92,11 +74,11 @@
 	},
 	"sources": {
 		"tests/Bank.sol": {
-			"keccak256": "0xe5658c1d812473653520487b4b7c61262f761f0e5d15638457ae22f61c6fdeb4",
+			"keccak256": "0xb35802fa8b895cd48a3a701b0935d0b8f2932bd5f0d5ec02e2369e65b9ea4d71",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fad58a9e8a52fd1ca375ba1618a8f095d76525f3f55724d7f7da408980c39bc0",
-				"dweb:/ipfs/QmU4BBfiRMtdspFiyppKeVniXzUsjJ2NmaQxY8GfS78Puu"
+				"bzz-raw://c8d13cd445db8f0ac16ef59477d1a6c25aff97f5380eb8d7ebddeeb52f155f98",
+				"dweb:/ipfs/QmP65WfW4YnPj4Q5vgiXRMS3FpfHfhFRGLXkcdoNETxveL"
 			]
 		}
 	},

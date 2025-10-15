@@ -52,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/Bank.sol": "IBank"
+			"practise/Bank.sol": "IBank"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -66,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/Bank.sol": {
-			"keccak256": "0xe5658c1d812473653520487b4b7c61262f761f0e5d15638457ae22f61c6fdeb4",
+		"practise/Bank.sol": {
+			"keccak256": "0x118be5ce7f4bbe33d881e8f15a1a102b96d76a6f336be45ce009db70eb070ea1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fad58a9e8a52fd1ca375ba1618a8f095d76525f3f55724d7f7da408980c39bc0",
-				"dweb:/ipfs/QmU4BBfiRMtdspFiyppKeVniXzUsjJ2NmaQxY8GfS78Puu"
+				"bzz-raw://b2f5f15cb515dedaf8abc6feaa8d1542c9129ebb9f8012d3712616fa085d9823",
+				"dweb:/ipfs/QmQuHezySxR2aKY6KecADQByEbvGnQv4JK1jFewY3hqWix"
 			]
 		}
 	},

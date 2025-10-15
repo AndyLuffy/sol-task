@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "testMsg",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTx",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practise/MessageInfo.sol": "Callee"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practise/MessageInfo.sol": {
+			"keccak256": "0x3d3a5b7e86246b50d1f9365b70aadb9207ac49bcd002fdc4cf5620e445d32d6d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ab44e947077dfa8ad4847dd68ca8606fdb2304b270b1056ca3982f11981ff49",
+				"dweb:/ipfs/QmYj2KzhYAjYkhCmgSYWaW1q6sujuQcLVTsY7UjsARUNpf"
+			]
+		}
+	},
+	"version": 1
+}
