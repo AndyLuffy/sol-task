@@ -33,7 +33,7 @@ contract IntToRoman{
 
         for (uint256 i = 0; i < romanNumerals.length; i++) {
             while (remaining >= romanNumerals[i].value) {
-                result = string(abi.encodePacked(result, romanNumerals[i].symbol));
+                result =string.concat(result,romanNumerals[i].symbol);
                 remaining -= romanNumerals[i].value;
             }
         }
