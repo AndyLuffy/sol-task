@@ -7,7 +7,6 @@ contract BinarySearch{
         
         while (left <= right) {
             uint mid = left + (right - left) / 2;
-            
             if (arr[mid] == target) {
                 return int(mid);
             } else if (arr[mid] < target) {
